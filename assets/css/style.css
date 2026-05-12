@@ -115,6 +115,9 @@ nav {
     width: 400px;
 }
 
+.about .content p {
+    margin-top: 8px;
+}
 .rao {
     color: hsl(215, 28%, 17%);
     font-weight: 600;
@@ -125,10 +128,6 @@ nav {
 .testimonials {
     background-color: hsl(220, 13%, 91%);
     padding-top: 32px;
-}
-
-.testimonials h2{
-
 }
 
 .cards {
