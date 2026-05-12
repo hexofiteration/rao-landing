@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAO || Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="flex">
 
-            <div class="logo">rao</div>
+            <div class="logo">RAO</div>
 
-            <ul class="nav-links">
+            <ul class="nav-links flex">
 
                 <li class="nav-link"><a href="#">About</a></li>
                 <li class="nav-link"><a href="#">Services</a></li>
@@ -19,71 +20,84 @@
             </ul>
         </nav>
 
-        <div class="hero">
+        <div class="hero flex center">
             <div class="hero-content">
 
                 <h1>Be the Chosen One</h1>
 
-                <p>We are here to give you a restart you 
-                    <span class="bloody">deserve</span>! Whether as a fairy, hero or a nobles beloved pet!
+                <p>We are here to give you a restart you deserve. Whether as a fairy, hero or a nobles beloved pet. Choose your restart.
                 </p>
 
-                <button>Restart</button>
+                <button>Sign Up</button>
             </div>
 
             <div class="hero-image">
-                <img src="" alt="" height="300">
+                <img src="./assets/img/hero.png" alt="" height="250">
             </div>
         </div>
     </header>
     <main>
-        <section class="about">
-            <div class="content">
+        <section class="about ">
 
-                <h2>About Us</h2>
+            <h2>About Us</h2>
 
-                <p>
-                    The <span class="rao">Reincarnation and Ascension Organisation</span> ushers you into another life! We are 
-                    committed to making <span class="bloody">YOU</span> for your restart. Every existing entity is a valuable customer.
-                </p>
+            <div class="flex center">        
+                <img src="/assets/img/about.png" alt="" height="200">
 
-                <p>
-                    We are the only existing organisation that can give you a restart. Register your name and address and we will be right outside your window
-                </p>
+                <div class="content">
 
-                <button>Contact Us</button>
-            </div>
+                    <p>
+                        The <span class="rao">Reincarnation and Ascension Organisation</span> ushers you into another life! We are 
+                        committed to remaking you for your restart. Every existing entity is a valuable customer.
+                    </p>
+
+                    <p>
+                        We are the only existing organisation that can give you a restart. Register your name and address and we will be right outside your window
+                    </p>
+                </div>
+            </div>    
         </section>
+
 
         <section class="testimonials">
 
             <h2>Our Happy Customers</h2>
 
-            <div class="cards">
+            <div class="cards flex center">
 
                 <div class="card">
-                    <img src="" alt="" height="200">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, doloribus quisquam.</p>
+                    <img src="./assets/img/customer-1.png" alt="" height="250">
+                    <p>Watching martial artist movies in my childhood made me restart as a warrior in Alpokontera.</p>
+                    <p class="customer">Yan Du Seong</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="" height="200">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, doloribus quisquam.</p>
+                    <img src="./assets/img/customer-2.png" alt="" height="250">
+                    <p>I loved sleeping so much that I chose to become a royal's cat in the Dihmeal Empire.</p>
+                    <p class="customer">Elizabeth the 12th</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="" height="200">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, doloribus quisquam.</p>
+                    <img src="./assets/img/customer-3.png" alt="" height="250">
+                    <p>The sight of terror on peoples faces gets me excited, so  I became a ghost king.</p>
+                    <p class="customer">Blood Demon</p>
                 </div>
             </div>
                 
         </section>
-        <section class="contact">
 
-            <h2>Register with us now!</h2>
-            <p>We are available within seconds of registration</p>
+        <section class="contact center">
+
+            <div class="flex">
+                <div class="content">
+                    <h2>Register with us now!</h2>
+                    <p>We are available within seconds of registration</p>
+                </div>
+                <button>Sign Up</button>
+            </div>
+                
             
-            <form>
+            <!-- <form class="flex"> 
 
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -111,10 +125,10 @@
                 </div>
 
                 <button>Register</button>
-            </form>
+            </form> -->
         </section>
     </main>
-    <footer>
+    <footer class="flex center">
         Reincarnation and Ascension Organisation
     </footer>
 </body>

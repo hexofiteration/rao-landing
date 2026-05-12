@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: hsla(0, 0%, 0%, 0.829);
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: hsl(215, 28%, 17%);
+}
+button {
+    padding: 5px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* ==== header ==== */
+header {
+    background-color: hsl(215, 28%, 17%);
+    
+}
+
+.logo,
+.nav-links a,
+.hero,
+.hero button,
+.contact .flex,
+.contact h2,
+.contact button,
+footer  {
+    color: hsl(90, 17%, 98%);
+}
+
+/* nav */
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 56px;
+    height: 75px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 32px;  
+    
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+}
+/* hero */
+.hero {
+    height: 450px;
+    gap: 16px;
+}
+
+.hero-content {
+    width: 400px;
+    padding: 8px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    color: hsl(220, 13%, 91%);
+    font-size: 18px;
+}
+
+.hero button {
+    background-color: hsl(217, 91%, 59%);
+    margin-top: 16px;
+    border: none;
+}
+
+/* ==== about ==== */
+
+.about {
+    margin-top: 50px;  
+}
+
+.about .flex {
+    height: 300px;
+    gap: 32px;
+}
+
+.about .content {
+    width: 400px;
+}
+
+.rao {
+    color: hsl(215, 28%, 17%);
+    font-weight: 600;
+}
+
+/* ==== testimonials ==== */
+
+.testimonials {
+    background-color: hsl(220, 13%, 91%);
+    padding-top: 32px;
+}
+
+.testimonials h2{
+
+}
+
+.cards {
+    height: 400px;
+    gap: 36px;
+    color: (215, 28%, 17%);
+}
+
+.card {
+    width: 300px;
+    padding: 0 16px;
+}
+
+.card p {
+    margin-top: 8px;
+}
+
+.customer {
+    font-weight: 600;
+
+}
+
+/* ==== contact us ==== */
+.contact {
+    height: 350px;
+    display: flex;
+}
+.contact .flex {
+    background-color: hsl(217, 91%, 59%);
+    height: 150px;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.contact h2{
+    text-align: left;
+    font-size: 24px;
+}
+.contact p {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.contact button {
+    background-color: hsl(217, 91%, 59%);
+    border: 2px solid hsl(90, 17%, 98%);
+}
+/* form {
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    width: 400px;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    font-family: inherit;
+    font-size: inherit;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid hsl(215, 28%, 17%);
+    outline: none;
+}
+
+form button {
+    border-color: hsl(217, 91%, 59%);
+    background-color: transparent;
+} */
+
+/* ==== footer ==== */
+
+footer {
+    height: 75px;
+    background-color: hsl(215, 28%, 17%);
+    font-weight: 900;
+    font-size: 24px;
+}
